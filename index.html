@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Aventura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <h1>Jogo de Aventura</h1>
+    <p id="story">Você está em uma sala escura. O que você quer fazer?</p>
+    <div id="actions">
+      <button onclick="lookAround()">Olhar ao redor</button>
+      <button onclick="openChest()">Abrir o baú</button>
+      <button onclick="exitRoom()">Sair da sala</button>
+    </div>
+    <p id="score">Pontos: 0</p>
+    <p id="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
